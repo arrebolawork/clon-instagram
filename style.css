@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin-left: 260px;
+}
+li {
+  list-style: none;
+}
+aside {
+  width: 244px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+aside:first-child {
+  width: 113px;
+  height: 29;
+  margin: 40px 117px auto 24px;
+}
+aside nav ul li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 20px auto;
+}
+a {
+  color: #262626;
+}

@@ -71,6 +71,7 @@ header h4 {
   background-color: inherit;
   border: transparent;
   color: #262626;
+  font-weight: 600;
 }
 button:hover {
   cursor: pointer;
@@ -175,4 +176,10 @@ footer article p {
   color: #8e8e8e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
+}
+.data-format {
+  font-weight: 500;
+}
+strong {
+  font-weight: 600;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,28 +7,172 @@
 }
 body {
   margin-left: 260px;
+  background-color: #fafafa;
 }
 li {
   list-style: none;
 }
+main {
+  display: flex;
+}
 aside {
+  background-color: #ffffff;
   width: 244px;
   height: auto;
+  padding-top: 40px;
+  padding-left: 24px;
+}
+aside > img {
+  margin-bottom: 31px;
+}
+aside nav ul {
   display: flex;
   flex-direction: column;
-  gap: 31px;
-}
-aside:first-child {
-  width: 113px;
-  height: 29;
-  margin: 40px 117px auto 24px;
+  gap: 24px;
+  width: 220px;
 }
 aside nav ul li {
   display: flex;
-  gap: 16px;
   align-items: center;
-  margin: 20px auto;
+  gap: 16px;
+}
+section {
+  width: 935px;
+  background-color: #fafafa;
 }
 a {
   color: #262626;
+}
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  padding-top: 73px;
+  padding-left: 71px;
+  margin-bottom: 44px;
+}
+h1 {
+  font-weight: 400;
+  line-height: medium;
+}
+header h4 {
+  font-weight: 600;
+  color: #262626;
+  font-size: 16px;
+}
+.follow-button-header {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 4px;
+}
+.more-button-header {
+  background-color: inherit;
+  border: transparent;
+  color: #262626;
+}
+button:hover {
+  cursor: pointer;
+}
+.header-article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile-img-header {
+  width: 150px;
+  margin-right: 101px;
+}
+.title-addFollow {
+  display: flex;
+}
+.title-addFollow h1 {
+  margin-right: 20px;
+}
+.title-addFollow button {
+  margin-right: 8px;
+}
+.info-followers-header {
+  display: flex;
+  gap: 40px;
+}
+.following-states {
+  display: flex;
+  padding-left: 48px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.state {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 25px 0px 23px;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 44px;
+}
+.state img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.perfil-storage-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 17px;
+}
+.perfil-storage-nav li {
+  padding-top: 17px;
+}
+.perfil-storage-nav li:first-child {
+  border-top: 1px solid #8e8e8e;
+  border-image-source: linear-gradient(to right, black 50px, transparent 25px);
+  border-image-slice: 1;
+}
+.perfil-storage-nav li:first-child a {
+  color: #262626;
+}
+
+.perfil-storage-nav li a {
+  color: #8e8e8e;
+  margin-left: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.storage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(293px, 1fr));
+  gap: 28px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+footer nav ul li a {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+footer article {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 30px;
+  gap: 28px;
+  margin-left: 98px;
+}
+footer article select {
+  border: transparent;
+  background-color: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #8e8e8e;
+}
+footer article p {
+  color: #8e8e8e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
 }

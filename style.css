@@ -125,6 +125,9 @@ button:hover {
   margin-bottom: 17px;
 }
 .perfil-storage-nav li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding-top: 17px;
 }
 .perfil-storage-nav li:first-child {
@@ -138,7 +141,7 @@ button:hover {
 
 .perfil-storage-nav li a {
   color: #8e8e8e;
-  margin-left: 6px;
+  margin-top: 3px;
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
